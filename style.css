@@ -3538,3 +3538,30 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
         padding-left: 15px;
     }
 }
+
+.img-shadow {
+  box-shadow: 0 0 16px 0 #888;
+}
+
+.gallery-text-area {
+  position: relative;
+  margin-top: 60px;
+}
+
+.gallery-page-profile {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-text-area {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-text-area {
+    height: 650px;
+  }
+}
