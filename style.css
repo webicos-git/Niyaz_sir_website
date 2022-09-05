@@ -3550,7 +3550,7 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 
 .gallery-page-profile {
   position: absolute;
-  right: 0;
+  right: 3rem;
   bottom: 0;
 }
 
@@ -3558,10 +3558,26 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
   .gallery-text-area {
     height: 600px;
   }
+
+  .gallery-page-profile {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .gallery-text-area {
     height: 650px;
   }
+
+  .gallery-page-profile {
+    right: 1rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 8rem;
+  }
+}
+
+.our-goals-section {
+  position: relative;
 }
