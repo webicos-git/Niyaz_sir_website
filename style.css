@@ -3555,9 +3555,7 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 }
 
 @media screen and (max-width: 768px) {
-  .gallery-text-area {
-    height: 600px;
-  }
+
 
   .gallery-page-profile {
     height: 250px;
@@ -3565,9 +3563,6 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 }
 
 @media screen and (max-width: 576px) {
-  .gallery-text-area {
-    height: 650px;
-  }
 
   .gallery-page-profile {
     right: 1rem;
