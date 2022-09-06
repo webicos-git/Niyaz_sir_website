@@ -409,7 +409,7 @@ a.meanmenu-reveal {
 	width: 100%;
 	position: relative;
 	background: #fff;
-	padding: 4px 0;
+	padding: 14px 0;
 	min-height: 42px;
 	z-index: 999999;
 }
@@ -572,6 +572,19 @@ a.meanmenu-reveal {
 	width: 50%;
 }
 .mobile-logo>img {
-  width: 155px;
-  height: 55px;
+  width: 230px;
+  height: 50px;
+  margin-top: .65rem;
+}
+
+.logo>a>img {
+  width: 250px;
+}
+
+@media screen and (max-width: 996px) {
+  .logo>a>img {
+    width: 230px;
+    height: 50px;
+    margin-top: .65rem;
+  }
 }

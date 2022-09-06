@@ -3551,7 +3551,8 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 .gallery-page-profile {
   position: absolute;
   right: 3rem;
-  bottom: 0;
+  bottom: 4rem;
+  transform: scale(1.25);
 }
 
 @media screen and (max-width: 768px) {
@@ -3559,13 +3560,16 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 
   .gallery-page-profile {
     height: 250px;
+    bottom: 15rem;
+    right: 1rem;
   }
 }
 
 @media screen and (max-width: 576px) {
 
   .gallery-page-profile {
-    right: 1rem;
+    bottom: 20rem;
+    height: 225px;
   }
 
   .margin-bot {
@@ -3576,3 +3580,4 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 .our-goals-section {
   position: relative;
 }
+
