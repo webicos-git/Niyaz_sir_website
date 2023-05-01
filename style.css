@@ -3628,3 +3628,29 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
 .nav-pills .nav-link.active {
   background-color: #e31e24;
 }
+
+.ques-card {
+  box-shadow: 3px 3px 6px #999;
+  border-radius: .75rem;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: 800;
+  margin: 0;
+}
+
+.card-link {
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.card-link:hover {
+  color: #d9281f;
+}
